@@ -1,0 +1,381 @@
+{
+  "geometries": [
+    {
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "name": "back_face",
+          "normal": [ 0.0, 0.0, -1.0 ],
+          "vertices": [
+            {
+              "position": [ 0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ -0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ -0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "front_face",
+          "normal": [ 0.0, 0.0, 1.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "top_face",
+          "normal": [ 0.0, 1.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "bottom_face",
+          "normal": [ 0.0, -1.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "left_face",
+          "normal": [ -1.0, 0.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ -0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ -0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "right_face",
+          "normal": [ 1.0, 0.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ 0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        }
+      ],
+      "can_cull_faces": [
+        "front_face", "back_face", "top_face", "bottom_face", "left_face", "right_face"
+      ]
+    },
+    {
+      "geometry_type": "water",
+      "faces": [
+        {
+          "name": "top_face",
+          "normal": [ 0.0, 1.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        }
+      ]
+    },
+    {
+      "geometry_type": "grass",
+      "faces": [
+        {
+          "name": "diagonal_1_front",
+          "normal": [ 0.707, 0.0, -0.707 ],
+          "vertices": [
+            {
+              "position": [-0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },        
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2, 0, 1, 3, 1, 2, 3]
+        },
+        {
+          "name": "diagonal_2_front",
+          "normal": [ -0.707, 0.0, -0.707 ],
+          "vertices": [
+            {
+              "position": [-0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, 0.5, -0.5 ],
+              "tex_coords": [ 0.0, 0.0 ]
+            },
+            {
+              "position": [ 0.5, 0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0 ]
+            },        
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2, 0, 1, 3, 1, 2, 3]
+        }     
+      ]
+    },
+    {
+      "geometry_type": "half_block",
+      "is_solid": true,
+      "faces": [
+        {
+          "name": "back_face",
+          "normal": [ 0.0, 0.0, -1.0 ],
+          "vertices": [
+            {
+              "position": [ 0.5, 0.0, -0.5 ],
+              "tex_coords": [ 0.125, 0.03125 ]
+            },
+            {
+              "position": [ -0.5, 0.0, -0.5 ],
+              "tex_coords": [ 0.1875, 0.03125 ]
+            },
+            {
+              "position": [ -0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.1875, 0.0625 ]
+            },
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.125, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "front_face",
+          "normal": [ 0.0, 0.0, 1.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.0, 0.5 ],
+              "tex_coords": [ 0.0625, 0.03125 ]
+            },
+            {
+              "position": [ 0.5, 0.0, 0.5 ],
+              "tex_coords": [ 0.125, 0.03125 ]
+            },
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.125, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "top_face",
+          "normal": [ 0.0, 1.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.0, -0.5 ],
+              "tex_coords": [ 0.0, 0.03125 ]
+            },
+            {
+              "position": [ 0.5, 0.0, -0.5 ],
+              "tex_coords": [ 0.0625, 0.03125 ]
+            },
+            {
+              "position": [ 0.5, 0.0, 0.5 ],
+              "tex_coords": [ 0.0625, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, 0.0, 0.5 ],
+              "tex_coords": [ 0.0, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "bottom_face",
+          "normal": [ 0.0, -1.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.3125, 0.0 ]
+            },
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.375, 0.0 ]
+            },
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.375, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.3125, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "left_face",
+          "normal": [ -1.0, 0.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ -0.5, 0.0, -0.5 ],
+              "tex_coords": [ 0.1875, 0.03125 ]
+            },
+            {
+              "position": [ -0.5, 0.0, 0.5 ],
+              "tex_coords": [ 0.25, 0.03125 ]
+            },
+            {
+              "position": [ -0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.25, 0.0625 ]
+            },
+            {
+              "position": [ -0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.1875, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        },
+        {
+          "name": "right_face",
+          "normal": [ 1.0, 0.0, 0.0 ],
+          "vertices": [
+            {
+              "position": [ 0.5, 0.0, 0.5 ],
+              "tex_coords": [ 0.25, 0.03125 ]
+            },
+            {
+              "position": [ 0.5, 0.0, -0.5 ],
+              "tex_coords": [ 0.3125, 0.03125 ]
+            },
+            {
+              "position": [ 0.5, -0.5, -0.5 ],
+              "tex_coords": [ 0.3125, 0.0625 ]
+            },
+            {
+              "position": [ 0.5, -0.5, 0.5 ],
+              "tex_coords": [ 0.25, 0.0625 ]
+            }
+          ],
+          "indices": [ 0, 3, 1, 1, 3, 2 ]
+        }
+      ],
+      "can_cull_faces": [
+        "front_face", "back_face", "top_face", "bottom_face", "left_face", "right_face"
+      ]
+    },
+    {
+      "geometry_type": "air",
+      "faces": [],
+      "can_cull_faces": []
+    }
+  ]
+}

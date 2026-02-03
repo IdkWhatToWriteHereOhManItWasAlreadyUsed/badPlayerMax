@@ -1,0 +1,709 @@
+{
+  "blocks": [
+    {
+      "block_name": "dirt",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 2,
+          "texture_z": 0
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 2,
+          "texture_z": 0
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 2,
+          "texture_z": 0
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 2,
+          "texture_z": 0
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 2,
+          "texture_z": 0
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 2,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "stone",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 1,
+          "texture_z": 0
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 1,
+          "texture_z": 0
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 1,
+          "texture_z": 0
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 1,
+          "texture_z": 0
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 1,
+          "texture_z": 0
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 1,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": true
+    },
+    {
+      "block_name": "oak_plank",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 4,
+          "texture_z": 0
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 4,
+          "texture_z": 0
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 4,
+          "texture_z": 0
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 4,
+          "texture_z": 0
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 4,
+          "texture_z": 0
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 4,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": true
+    },
+    {
+      "block_name": "air",
+      "geometry_type": "air",
+      "faces": [],
+      "is_transparent": true,
+      "is_solid": false
+    },
+    {
+      "block_name": "oak_wood",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 4,
+          "texture_z": 1
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 4,
+          "texture_z": 1
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 5,
+          "texture_z": 1
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 5,
+          "texture_z": 1
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 4,
+          "texture_z": 1
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 4,
+          "texture_z": 1
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": true
+    },
+    {
+      "block_name": "tulip",
+      "geometry_type": "grass",
+      "faces": [
+        {
+          "face_name": "diagonal_1_front",
+          "texture_x": 12,
+          "texture_z": 0
+        },
+        {
+          "face_name": "diagonal_2_front",
+          "texture_x": 12,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": false
+    },
+    {
+      "block_name": "cobblestone",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 0,
+          "texture_z": 1
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 0,
+          "texture_z": 1
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 0,
+          "texture_z": 1
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 0,
+          "texture_z": 1
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 0,
+          "texture_z": 1
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 0,
+          "texture_z": 1
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": true
+    },
+    {
+      "block_name": "grass_block",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 3,
+          "texture_z": 0
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 3,
+          "texture_z": 0
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 0,
+          "texture_z": 0
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 2,
+          "texture_z": 0
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 3,
+          "texture_z": 0
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 3,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": true
+    },
+    {
+      "block_name": "short_grass",
+      "geometry_type": "grass",
+      "faces": [
+        {
+          "face_name": "diagonal_1_front",
+          "texture_x": 7,
+          "texture_z": 2
+        },
+        {
+          "face_name": "diagonal_2_front",
+          "texture_x": 7,
+          "texture_z": 2
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": false
+    },
+    {
+      "block_name": "leaves",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 4,
+          "texture_z": 3
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 4,
+          "texture_z": 3
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 4,
+          "texture_z": 3
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 4,
+          "texture_z": 3
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 4,
+          "texture_z": 3
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 4,
+          "texture_z": 3
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": false
+    },
+    {
+      "block_name": "glass",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 1,
+          "texture_z": 3
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 1,
+          "texture_z": 3
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 1,
+          "texture_z": 3
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 1,
+          "texture_z": 3
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 1,
+          "texture_z": 3
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 1,
+          "texture_z": 3
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": true
+    },
+    {
+      "block_name": "dandelion",
+      "geometry_type": "grass",
+      "faces": [
+        {
+          "face_name": "diagonal_1_front",
+          "texture_x": 13,
+          "texture_z": 0
+        },
+        {
+          "face_name": "diagonal_2_front",
+          "texture_x": 13,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": false
+    },
+    {
+      "block_name": "sugar_cane",
+      "geometry_type": "grass",
+      "faces": [
+        {
+          "face_name": "diagonal_1_front",
+          "texture_x": 9,
+          "texture_z": 4
+        },
+        {
+          "face_name": "diagonal_2_front",
+          "texture_x": 9,
+          "texture_z": 4
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": true
+    },
+    {
+      "block_name": "dead_bush",
+      "geometry_type": "grass",
+      "faces": [
+        {
+          "face_name": "diagonal_1_front",
+          "texture_x": 7,
+          "texture_z": 3
+        },
+        {
+          "face_name": "diagonal_2_front",
+          "texture_x": 7,
+          "texture_z": 3
+        }
+      ],
+      "is_transparent": true,
+      "is_solid": false
+    },
+    {
+      "block_name": "sand",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 2,
+          "texture_z": 1
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 2,
+          "texture_z": 1
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 2,
+          "texture_z": 1
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 2,
+          "texture_z": 1
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 2,
+          "texture_z": 1
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 2,
+          "texture_z": 1
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "bedrock",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 1,
+          "texture_z": 1
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 1,
+          "texture_z": 1
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 1,
+          "texture_z": 1
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 1,
+          "texture_z": 1
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 1,
+          "texture_z": 1
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 1,
+          "texture_z": 1
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "iron_block",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 6,
+          "texture_z": 1
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 6,
+          "texture_z": 1
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 6,
+          "texture_z": 1
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 6,
+          "texture_z": 1
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 6,
+          "texture_z": 1
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 6,
+          "texture_z": 1
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "tnt",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 8,
+          "texture_z": 0
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 8,
+          "texture_z": 0
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 9,
+          "texture_z": 0
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 10,
+          "texture_z": 0
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 8,
+          "texture_z": 0
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 8,
+          "texture_z": 0
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "coal_ore",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 2,
+          "texture_z": 2
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 2,
+          "texture_z": 2
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 2,
+          "texture_z": 2
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 2,
+          "texture_z": 2
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 2,
+          "texture_z": 2
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 2,
+          "texture_z": 2
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "iron_ore",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 1,
+          "texture_z": 2
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 0,
+          "texture_z": 0
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 1,
+          "texture_z": 2
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 1,
+          "texture_z": 2
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 1,
+          "texture_z": 2
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 1,
+          "texture_z": 2
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "gold_ore",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 0,
+          "texture_z": 2
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 0,
+          "texture_z": 2
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 0,
+          "texture_z": 2
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 0,
+          "texture_z": 2
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 0,
+          "texture_z": 2
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 0,
+          "texture_z": 2
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    },
+    {
+      "block_name": "diamond_ore",
+      "geometry_type": "cube",
+      "faces": [
+        {
+          "face_name": "back_face",
+          "texture_x": 2,
+          "texture_z": 3
+        },
+        {
+          "face_name": "front_face",
+          "texture_x": 2,
+          "texture_z": 3
+        },
+        {
+          "face_name": "top_face",
+          "texture_x": 2,
+          "texture_z": 3
+        },
+        {
+          "face_name": "bottom_face",
+          "texture_x": 2,
+          "texture_z": 3
+        },
+        {
+          "face_name": "left_face",
+          "texture_x": 2,
+          "texture_z": 3
+        },
+        {
+          "face_name": "right_face",
+          "texture_x": 2,
+          "texture_z": 3
+        }
+      ],
+      "is_transparent": false,
+      "is_solid": false
+    }
+  ]
+}
