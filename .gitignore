@@ -88,3 +88,9 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Игнорируем бинарные файлы submodule (опционально)
+OpenGLSomethingFrameDisplayerEVO/build/
+OpenGLSomethingFrameDisplayerEVO/*.so
+OpenGLSomethingFrameDisplayerEVO/*.dylib
+OpenGLSomethingFrameDisplayerEVO/*.dll
