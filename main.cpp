@@ -17,26 +17,41 @@ namespace fs = std::filesystem;
     #include <mach-o/dyld.h>
 #endif
 
-fs::path getExecutableDir() {
+fs::path getExecutableDir() 
+{
     #if defined(_WIN32)
         wchar_t path[MAX_PATH];
-        if (GetModuleFileNameW(nullptr, path, MAX_PATH)) {
-            return fs::path(path).parent_path();
+        if (GetModuleFileNameW(nullptr, path, MAX_PATH)) 
+        {
+            std::filesystem::path result = path;
+            result = std::filesystem::weakly_canonical(result);
+            result.remove_filename();
+            return result;
         }
     #elif defined(__linux__)
         char path[PATH_MAX];
         ssize_t count = readlink("/proc/self/exe", path, sizeof(path) - 1);
-        if (count != -1) {
+        if (count != -1) 
+        {
             path[count] = '\0';
-            return fs::path(path).parent_path();
+
+            std::filesystem::path result = path;
+            result = std::filesystem::weakly_canonical(result);
+            result.remove_filename();
+            return result;
         }
     #elif defined(__APPLE__)
         char path[PATH_MAX];
         uint32_t size = sizeof(path);
-        if (_NSGetExecutablePath(path, &size) == 0) {
-            return fs::path(path).parent_path();
+        if (_NSGetExecutablePath(path, &size) == 0) 
+        {
+            std::filesystem::path result = path;
+            result = std::filesystem::weakly_canonical(result);
+            result.remove_filename();
+            return result;
         }
     #endif
+
     return fs::current_path();
 }
 
