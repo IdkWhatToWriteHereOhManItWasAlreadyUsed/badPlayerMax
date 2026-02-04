@@ -249,7 +249,7 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
                     video_codec_ctx->height, rgb_frame->data,
                     rgb_frame->linesize);
 
-                GLobal::frameDisplayer->DisplayFrame(rgb_frame->data);
+                GLobal::frameDisplayer->DisplayFrame(rgb_frame->data[0]);
 
                 
                 glBindTexture(GL_TEXTURE_2D, texture);

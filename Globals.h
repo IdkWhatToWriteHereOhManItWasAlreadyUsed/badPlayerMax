@@ -6,7 +6,7 @@
 class GLobal
 {
 public:
-    static std::unique_ptr<OpenGLSomethingFrameDisplayerEVO> frameDisplayer;
+    static std::unique_ptr<OpenGLSomethingFrameDisplayerEVO::OpenGLSomethingFrameDisplayerEVO> frameDisplayer;
     static bool shouldStop;
 };
 
