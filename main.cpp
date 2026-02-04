@@ -24,12 +24,10 @@ int main()
 {
     GLobal::shouldStop = false;
     std::thread th([] {VideoPlayerFunc();});
+
     GLobal::frameDisplayer = std::make_unique<OpenGLSomethingFrameDisplayerEVO>();
-
     GLobal::frameDisplayer->WaitForSetVideoSize();
-
     GLobal::frameDisplayer->InitialiseGame(1300, 900);
-
     GLobal::frameDisplayer->Start();
     GLobal::shouldStop = true;
     th.join();
