@@ -8,13 +8,22 @@
 
 namespace fs = std::filesystem;
 
-#ifdef __linux__
+#ifdef _WIN32
+    #include <windows.h>
+#elif defined(__linux__)
     #include <unistd.h>
     #include <limits.h>
+#elif defined(__APPLE__)
+    #include <mach-o/dyld.h>
 #endif
 
 fs::path getExecutableDir() {
-    #if defined(__linux__)
+    #if defined(_WIN32)
+        wchar_t path[MAX_PATH];
+        if (GetModuleFileNameW(nullptr, path, MAX_PATH)) {
+            return fs::path(path).parent_path();
+        }
+    #elif defined(__linux__)
         char path[PATH_MAX];
         ssize_t count = readlink("/proc/self/exe", path, sizeof(path) - 1);
         if (count != -1) {
@@ -22,7 +31,6 @@ fs::path getExecutableDir() {
             return fs::path(path).parent_path();
         }
     #elif defined(__APPLE__)
-        #include <mach-o/dyld.h>
         char path[PATH_MAX];
         uint32_t size = sizeof(path);
         if (_NSGetExecutablePath(path, &size) == 0) {
