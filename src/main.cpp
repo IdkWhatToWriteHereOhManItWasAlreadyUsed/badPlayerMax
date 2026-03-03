@@ -86,6 +86,7 @@ int main()
     std::thread th([] {VideoPlayerFunc();});
 
     GLobal::frameDisplayer = std::make_unique<OpenGLSomethingFrameDisplayerEVO::OpenGLSomethingFrameDisplayerEVO>();
+    GLobal::frameDisplayer->SetThreadCount(std::thread::hardware_concurrency() - 4);
     GLobal::frameDisplayer->WaitForSetVideoSize();
     GLobal::frameDisplayer->InitialiseGame(1300, 900);
     GLobal::frameDisplayer->Start();

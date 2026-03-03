@@ -37,14 +37,14 @@ pkg_check_modules(SDL2 REQUIRED sdl2)
 
 # Собираем исходники основного приложения
 file(GLOB_RECURSE SOURCE_FILES
-    "videoPlayer/*.cpp"
+    "src/*.cpp"
 )
 
 # Создаем исполняемый файл
-add_executable(${PROJECT_NAME} ${SOURCE_FILES} main.cpp Globals.cpp)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 # Линкуем зависимости
