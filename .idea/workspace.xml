@@ -32,14 +32,39 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="Начало оптимизации от OpenCode">
+    <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="Превратил буфер графических данных в шаблонный контейнер">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/GraphicalDataBuffers/BlocksGraphicalDataBuffer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/GraphicalDataBuffers/BlocksGraphicalDataBuffer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/GameRendering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/GameRendering.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/VideoWorld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/VideoWorld.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/VideoWorld.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/VideoWorld.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/rendering/ChunkGraphicalData.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/rendering/ChunkGraphicalData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/OpenGLSomethingFrameDisplayerEVO.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/OpenGLSomethingFrameDisplayerEVO.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/Renderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/Renderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/Camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/Camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/GameInitialisation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameInitialisation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/GameRendering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/GameUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/InputManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/InputManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoCore/InputManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/InputManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/VideoWorld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/VideoWorld.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/VideoWorld.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/VideoWorld.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/block/Block.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/block/Block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/block/BlockMeshGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/block/BlockMeshGenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/block/BlockMeshGenerator.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/block/BlockMeshGenerator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/block/BlocksManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/block/BlocksManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/block/BlocksManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/block/BlocksManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/ChunkInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/ChunkInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/ChunkInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/ChunkInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/generation/ChunkGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/generation/ChunkGenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/generation/ChunkGenerator.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/generation/ChunkGenerator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/math/PerlinNoise.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/math/PerlinNoise.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/model/Chunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/model/Chunk.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/model/Chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/model/Chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/rendering/ChunkGraphicalData.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/rendering/ChunkGraphicalData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/rendering/ChunkMeshGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/rendering/ChunkMeshGenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/rendering/ChunkMeshGenerator.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/rendering/ChunkMeshGenerator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/videoWorld/chunk/rendering/RayCaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/rendering/RayCaster.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +73,9 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="213" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:release" />
   <component name="Git.Settings">
@@ -75,6 +103,69 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="3Z3OTLhp" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.00000002240361" />
+      <entry key="S5" value="1.0041669403156657" />
+      <entry key="S10" value="1.283170466510171" />
+      <entry key="S30" value="7.23141184123464" />
+      <entry key="S60" value="18.971432966483583" />
+      <entry key="M2" value="36.6287491927535" />
+      <entry key="M5" value="63.06307129761474" />
+      <entry key="M10" value="86.41202096419444" />
+      <entry key="M15" value="107.44270701570791" />
+      <entry key="M30" value="157.05677641819554" />
+      <entry key="H1" value="207.10191501924984" />
+      <entry key="H2" value="243.58161638239153" />
+      <entry key="H4" value="265.72845749494127" />
+      <entry key="D1" value="286.5522198132097" />
+      <entry key="W1" value="290.35856345410485" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.3274555222921302E-73" />
+      <entry key="S2" value="7.301404874583914E-19" />
+      <entry key="S5" value="7.922031721837649E-8" />
+      <entry key="S10" value="4.6523319259757917E-4" />
+      <entry key="S30" value="0.1869823357804422" />
+      <entry key="S60" value="0.9379659731194284" />
+      <entry key="M2" value="2.4035959881708666" />
+      <entry key="M5" value="5.128270605838514" />
+      <entry key="M10" value="7.025072774282883" />
+      <entry key="M15" value="7.8680106315325" />
+      <entry key="M30" value="8.8506472941094" />
+      <entry key="H1" value="9.402592268827252" />
+      <entry key="H2" value="9.695357107306679" />
+      <entry key="H4" value="9.846160453889842" />
+      <entry key="D1" value="9.974146334761523" />
+      <entry key="W1" value="9.996301346611025" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.830977040511476E-4" />
+      <entry key="MS500" value="0.20732988645361042" />
+      <entry key="S2" value="0.6747851061302872" />
+      <entry key="S5" value="0.8581679094492544" />
+      <entry key="S10" value="1.1937902557285276" />
+      <entry key="S30" value="7.297981796262012" />
+      <entry key="S60" value="19.783422488850373" />
+      <entry key="M2" value="38.929239853205836" />
+      <entry key="M5" value="68.12803073064306" />
+      <entry key="M10" value="93.39849751644472" />
+      <entry key="M15" value="115.28290024501285" />
+      <entry key="M30" value="165.89221644684395" />
+      <entry key="H1" value="216.496499781232" />
+      <entry key="H2" value="253.2728536674348" />
+      <entry key="H4" value="275.57252662224073" />
+      <entry key="D1" value="296.5260129962196" />
+      <entry key="W1" value="300.35481423459305" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -97,6 +188,7 @@
   "keyToString": {
     "CMake Application.badPlayer.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -109,28 +201,36 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "git.auto.fetch.suggestion.counter": "1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "IntelliLang.Configuration",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="CMake Application.badPlayer">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
+    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2" />
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="OpenGLSomethingFrameDisplayerEVO" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="badPlayer" TARGET_NAME="OpenGLSomethingFrameDisplayerEVO" CONFIG_NAME="Debug">
       <method v="2">
@@ -172,7 +272,12 @@
       <workItem from="1785778267842" duration="521000" />
       <workItem from="1787081698980" duration="7917000" />
       <workItem from="1787089637352" duration="16000" />
-      <workItem from="1787143641636" duration="2086000" />
+      <workItem from="1787143641636" duration="2966000" />
+      <workItem from="1787146626698" duration="562000" />
+      <workItem from="1787147201245" duration="384000" />
+      <workItem from="1787149808270" duration="4060000" />
+      <workItem from="1787155419932" duration="1385000" />
+      <workItem from="1787167431288" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="Начало оптимизации от OpenCode">
       <option name="closed" value="true" />
@@ -182,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787088074617</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Превратил буфер графических данных в шаблонный контейнер">
+      <option name="closed" value="true" />
+      <created>1787145952430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787145952430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +320,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начало оптимизации от OpenCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начало оптимизации от OpenCode" />
+    <MESSAGE value="Превратил буфер графических данных в шаблонный контейнер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Превратил буфер графических данных в шаблонный контейнер" />
   </component>
 </project>
