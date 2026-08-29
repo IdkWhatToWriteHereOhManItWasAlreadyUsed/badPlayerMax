@@ -38,23 +38,9 @@
     <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="исправил конфликт слияния">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.vs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.vs.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.vs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.vs.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.vs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.vs.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/Game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameInitialisation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameInitialisation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/ArrayObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/ArrayObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/ArrayObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/ArrayObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/BlockGPUDataArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/BlockGPUDataArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/GraphicalDataBuffers/GenericObjectBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/GraphicalDataBuffers/GenericObjectBuffer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/World.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/World.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/World.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/World.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/rendering/ChunkGraphicalData.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/world/chunk/rendering/ChunkGraphicalData.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoPlayer/media_payer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoPlayer/media_payer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videoPlayer/video_decoder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoPlayer/video_decoder.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +51,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="251" />
+    <option name="cachedIndexableFilesCount" value="134" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:release" />
   <component name="Git.Settings">
@@ -102,61 +88,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9650252198616098" />
-      <entry key="MS500" value="5.859361339680315" />
-      <entry key="S2" value="15.579417263754141" />
-      <entry key="S5" value="33.528044490090686" />
-      <entry key="S10" value="55.40842579057366" />
-      <entry key="S30" value="99.66234996378196" />
-      <entry key="S60" value="164.3987632842461" />
-      <entry key="M2" value="261.942365476251" />
-      <entry key="M5" value="377.9639888386492" />
-      <entry key="M10" value="434.596671071946" />
-      <entry key="M15" value="462.3664285403604" />
-      <entry key="M30" value="556.2350046781767" />
-      <entry key="H1" value="782.894762276997" />
-      <entry key="H2" value="1118.4098054321018" />
-      <entry key="H4" value="1517.730539334532" />
-      <entry key="D1" value="2340.487814458694" />
-      <entry key="W1" value="2590.346806967349" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0007048277783077" />
+      <entry key="S5" value="1.6150616244702425" />
+      <entry key="S10" value="8.526691863080917" />
+      <entry key="S30" value="52.43531707983196" />
+      <entry key="S60" value="119.22875426022662" />
+      <entry key="M2" value="223.30753110164738" />
+      <entry key="M5" value="355.3520992181268" />
+      <entry key="M10" value="422.2142255585754" />
+      <entry key="M15" value="454.10988405389753" />
+      <entry key="M30" value="552.0333140839782" />
+      <entry key="H1" value="780.5203934738755" />
+      <entry key="H2" value="1117.2821008477008" />
+      <entry key="H4" value="1517.6073332022772" />
+      <entry key="D1" value="2341.9419229736427" />
+      <entry key="W1" value="2592.2604921187135" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.036975272926332E-300" />
-      <entry key="S5" value="1.329518437807672E-120" />
-      <entry key="S10" value="1.1704156878315922E-60" />
-      <entry key="S30" value="1.3082038383416353E-20" />
-      <entry key="S60" value="1.533537913237074E-10" />
-      <entry key="M2" value="1.7257585370887587E-5" />
-      <entry key="M5" value="0.01893897298910991" />
-      <entry key="M10" value="0.2112476474828983" />
-      <entry key="M15" value="0.5095911871442954" />
-      <entry key="M30" value="1.5857887241386777" />
-      <entry key="H1" value="5.275314864517134" />
-      <entry key="H2" value="16.32945848192353" />
-      <entry key="H4" value="35.70844173485224" />
-      <entry key="D1" value="78.28640590067856" />
-      <entry key="W1" value="90.71132172650415" />
+      <entry key="S2" value="8.598404263423935E-305" />
+      <entry key="S5" value="2.3651963805286585E-122" />
+      <entry key="S10" value="1.561085014899196E-61" />
+      <entry key="S30" value="6.68401720690011E-21" />
+      <entry key="S60" value="1.0961641326052251E-10" />
+      <entry key="M2" value="1.4590513121859917E-5" />
+      <entry key="M5" value="0.01770894294290893" />
+      <entry key="M10" value="0.20427253958424615" />
+      <entry key="M15" value="0.4983111980217288" />
+      <entry key="M30" value="1.5681395000448795" />
+      <entry key="H1" value="5.2458766042744465" />
+      <entry key="H2" value="16.283832450510783" />
+      <entry key="H4" value="35.65852047943789" />
+      <entry key="D1" value="78.26815422142593" />
+      <entry key="W1" value="90.70830022144817" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.9190300492575374" />
-      <entry key="MS500" value="5.830832932938317" />
-      <entry key="S2" value="15.559857201925452" />
-      <entry key="S5" value="33.51049036377312" />
-      <entry key="S10" value="55.393574079618105" />
-      <entry key="S30" value="99.65305590626681" />
-      <entry key="S60" value="164.39059345940922" />
-      <entry key="M2" value="261.9353510788445" />
-      <entry key="M5" value="377.9777817283818" />
-      <entry key="M10" value="434.8033825336766" />
-      <entry key="M15" value="462.8712804460394" />
-      <entry key="M30" value="557.8153372550834" />
-      <entry key="H1" value="788.163205862797" />
-      <entry key="H2" value="1134.73028803749" />
-      <entry key="H4" value="1553.4296916954538" />
-      <entry key="D1" value="2418.7708899975605" />
-      <entry key="W1" value="2681.057577835101" />
+      <entry key="MS100" value="3.48599033443222E-6" />
+      <entry key="MS500" value="0.08099631033958336" />
+      <entry key="S2" value="0.5341767662123657" />
+      <entry key="S5" value="1.3916988788464926" />
+      <entry key="S10" value="8.403608525901282" />
+      <entry key="S30" value="52.38572910503574" />
+      <entry key="S60" value="119.19952382592389" />
+      <entry key="M2" value="223.28960912554774" />
+      <entry key="M5" value="355.3601202248052" />
+      <entry key="M10" value="422.4116596498338" />
+      <entry key="M15" value="454.6019230107738" />
+      <entry key="M30" value="553.5952376281396" />
+      <entry key="H1" value="785.7590264739734" />
+      <entry key="H2" value="1133.5567770650862" />
+      <entry key="H4" value="1553.2564745512116" />
+      <entry key="D1" value="2420.206730482285" />
+      <entry key="W1" value="2682.9682390528988" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -289,6 +275,15 @@
       <workItem from="1788024441550" duration="3130000" />
       <workItem from="1788028086850" duration="243000" />
       <workItem from="1788034445727" duration="4396000" />
+      <workItem from="1788039094208" duration="105000" />
+      <workItem from="1788039227520" duration="1152000" />
+      <workItem from="1788042072340" duration="559000" />
+      <workItem from="1788042800421" duration="8000" />
+      <workItem from="1788043005732" duration="53000" />
+      <workItem from="1788043111450" duration="9000" />
+      <workItem from="1788043646532" duration="317000" />
+      <workItem from="1788044066561" duration="111000" />
+      <workItem from="1788044216504" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Начало оптимизации от OpenCode">
       <option name="closed" value="true" />

@@ -65,13 +65,7 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
     glfwMakeContextCurrent(window);
     
     glewExperimental = GL_TRUE;
-    if (glewInit() != GLEW_OK)
-    {
-        std::cerr << "Failed to initialize GLEW" << std::endl;
-        glfwDestroyWindow(window);
-        glfwTerminate();
-        return;
-    }
+    glewInit();
     
     GLuint shader_program = create_shader_program();
     
