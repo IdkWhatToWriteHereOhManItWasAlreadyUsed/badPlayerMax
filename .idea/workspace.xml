@@ -37,15 +37,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="какието изменения под wayland... я сдаюсь">
+    <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="отключено окно видео плеера на время починки запуска на nvidia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameInitialisation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameInitialisation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.gs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.gs.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.gs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.gs.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.gs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.gs.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/GraphicalDataBuffers/GenericObjectBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/GraphicalDataBuffers/GenericObjectBuffer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoPlayer/media_payer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoPlayer/media_payer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videoPlayer/video_decoder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoPlayer/video_decoder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/BlockGPUDataArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/BlockGPUDataArray.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,61 +92,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000200584" />
-      <entry key="S5" value="1.0001189415101965" />
-      <entry key="S10" value="1.026800072519297" />
-      <entry key="S30" value="2.144912459171241" />
-      <entry key="S60" value="4.012537889204994" />
-      <entry key="M2" value="7.460500100637868" />
-      <entry key="M5" value="56.46776156639601" />
-      <entry key="M10" value="165.01929737342175" />
-      <entry key="M15" value="243.22981748897067" />
-      <entry key="M30" value="405.91943984546253" />
-      <entry key="H1" value="671.173390435271" />
-      <entry key="H2" value="1038.395331490847" />
-      <entry key="H4" value="1466.01804267325" />
-      <entry key="D1" value="2335.8338298299614" />
-      <entry key="W1" value="2599.706033251914" />
+      <entry key="MS100" value="1.0529289775801807" />
+      <entry key="MS500" value="1.7045849358767913" />
+      <entry key="S2" value="3.1830022216481377" />
+      <entry key="S5" value="5.685243634679151" />
+      <entry key="S10" value="9.437328931286425" />
+      <entry key="S30" value="17.36368914256861" />
+      <entry key="S60" value="22.488687051620108" />
+      <entry key="M2" value="31.031122392739594" />
+      <entry key="M5" value="74.21777947534197" />
+      <entry key="M10" value="171.2710981755786" />
+      <entry key="M15" value="256.2805706220541" />
+      <entry key="M30" value="442.9322028996352" />
+      <entry key="H1" value="729.0894346903021" />
+      <entry key="H2" value="1116.9245371044105" />
+      <entry key="H4" value="1564.0859929342905" />
+      <entry key="D1" value="2467.057506809966" />
+      <entry key="W1" value="2740.837944019879" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.2470575355922E-222" />
-      <entry key="MS500" value="4.6808296762847016E-45" />
-      <entry key="S2" value="8.271432112349524E-12" />
-      <entry key="S5" value="3.6900502802531824E-5" />
-      <entry key="S10" value="0.00607457840533249" />
-      <entry key="S30" value="0.1824618388248186" />
-      <entry key="S60" value="0.4271555206535708" />
-      <entry key="M2" value="0.6535714602609347" />
-      <entry key="M5" value="0.8459923149150005" />
-      <entry key="M10" value="0.9941242625570211" />
-      <entry key="M15" value="1.2018912832947959" />
-      <entry key="M30" value="2.098251788310173" />
-      <entry key="H1" value="5.431569126320855" />
-      <entry key="H2" value="15.983398862012756" />
-      <entry key="H4" value="35.20956933197544" />
-      <entry key="D1" value="78.72964051976695" />
-      <entry key="W1" value="91.61889209116383" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.459187907163552E-102" />
+      <entry key="S5" value="1.843505716897636E-41" />
+      <entry key="S10" value="4.2936065456648775E-21" />
+      <entry key="S30" value="1.6253269932146937E-7" />
+      <entry key="S60" value="4.0315344389137186E-4" />
+      <entry key="M2" value="0.020078684454696898" />
+      <entry key="M5" value="0.21005996460033682" />
+      <entry key="M10" value="0.49536932305076486" />
+      <entry key="M15" value="0.7554240530192223" />
+      <entry key="M30" value="1.663490839373635" />
+      <entry key="H1" value="4.836227440812842" />
+      <entry key="H2" value="15.082031386043402" />
+      <entry key="H4" value="34.202359258275386" />
+      <entry key="D1" value="78.34972810697353" />
+      <entry key="W1" value="91.55560252365495" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.05006686734935138" />
-      <entry key="MS500" value="0.5494271087884398" />
-      <entry key="S2" value="0.860949188358061" />
-      <entry key="S5" value="0.9420029345147776" />
-      <entry key="S10" value="1.0008984807862864" />
-      <entry key="S30" value="2.2833497538673315" />
-      <entry key="S60" value="4.3901490013308955" />
-      <entry key="M2" value="8.07518713443202" />
-      <entry key="M5" value="57.29176536580203" />
-      <entry key="M10" value="165.99937238992203" />
-      <entry key="M15" value="244.42048207051585" />
-      <entry key="M30" value="408.0090556834418" />
-      <entry key="H1" value="676.5966866166494" />
-      <entry key="H2" value="1054.3692214533692" />
-      <entry key="H4" value="1501.2180698208763" />
-      <entry key="D1" value="2414.5600556359095" />
-      <entry key="W1" value="2691.3243595888666" />
+      <entry key="MS100" value="1.0177753834633658" />
+      <entry key="MS500" value="1.692854156176901" />
+      <entry key="S2" value="3.1754633437497954" />
+      <entry key="S5" value="5.677563924441054" />
+      <entry key="S10" value="9.4278329587138" />
+      <entry key="S30" value="17.35578921772694" />
+      <entry key="S60" value="22.48381348204402" />
+      <entry key="M2" value="31.04670971061455" />
+      <entry key="M5" value="74.42031121613182" />
+      <entry key="M10" value="171.75807573514066" />
+      <entry key="M15" value="257.02789279284684" />
+      <entry key="M30" value="444.5882514674617" />
+      <entry key="H1" value="733.9179767777038" />
+      <entry key="H2" value="1131.9974304680425" />
+      <entry key="H4" value="1598.2789987872995" />
+      <entry key="D1" value="2545.4038224361316" />
+      <entry key="W1" value="2832.392979139859" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -306,7 +305,7 @@
       <workItem from="1788269067819" duration="516000" />
       <workItem from="1788270863212" duration="22000" />
       <workItem from="1788274809604" duration="1007000" />
-      <workItem from="1788294332841" duration="10000" />
+      <workItem from="1788294332841" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="Начало оптимизации от OpenCode">
       <option name="closed" value="true" />
@@ -356,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788044334625</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="отключено окно видео плеера на время починки запуска на nvidia">
+      <option name="closed" value="true" />
+      <created>1788294493338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1788294493338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +393,8 @@
     <MESSAGE value="Архитектура переделана под новые технологии. Бинарь компилируется. Остались шейдеры" />
     <MESSAGE value="исправил конфликт слияния" />
     <MESSAGE value="какието изменения под wayland... я сдаюсь" />
-    <option name="LAST_COMMIT_MESSAGE" value="какието изменения под wayland... я сдаюсь" />
+    <MESSAGE value="отключено окно видео плеера на время починки запуска на nvidia" />
+    <option name="LAST_COMMIT_MESSAGE" value="отключено окно видео плеера на время починки запуска на nvidia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
