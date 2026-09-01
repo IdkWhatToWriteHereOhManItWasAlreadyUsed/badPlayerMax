@@ -75,13 +75,43 @@ void VideoPlayerFunc()
     player.cleanup();
 }
 
+void printNvidiaEnv() {
+    std::cout << "\n=== NVIDIA Environment Variables ===" << std::endl;
+
+    // Список переменных, которые мы хотим проверить
+    std::vector<std::string> env_vars = {
+        "__NV_PRIME_RENDER_OFFLOAD",
+        "__GLX_VENDOR_LIBRARY_NAME",
+        "__NV_PRIME_RENDER_OFFLOAD_PROVIDER",
+        "EGL_PLATFORM",
+        "__GL_THREADED_OPTIMIZATIONS",
+        "__GL_SYNC_TO_VBLANK",
+        "vblank_mode",
+        "LIBGL_DEBUG",
+        "EGL_LOG_LEVEL",
+        "MESA_DEBUG",
+        "GLFW_DEBUG",
+        "DISPLAY"
+    };
+
+    for (const auto& var : env_vars) {
+        const char* val = std::getenv(var.c_str());
+        if (val) {
+            std::cout << var << " = " << val << std::endl;
+        } else {
+            std::cout << var << " = (not set)" << std::endl;
+        }
+    }
+    std::cout << "=====================================\n" << std::endl;
+}
+
 int main()
 {
     fs::path exeDir = getExecutableDir();
     fs::current_path(exeDir);
     
     std::cout << "Main working from: " << fs::current_path() << std::endl;
-    
+    printNvidiaEnv();
     GLobal::shouldStop = false;
     std::thread th([] {VideoPlayerFunc();});
 

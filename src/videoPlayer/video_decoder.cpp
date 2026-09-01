@@ -45,7 +45,7 @@ GLuint create_shader_program();
 void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
     std::shared_ptr<SharedData> shared)
 {
-    
+    /*
     if (!glfwInit())
     {
         std::cerr << "Failed to initialize GLFW" << std::endl;
@@ -60,8 +60,8 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
         return;
-    }
-    
+    }*/
+    /*
     glfwMakeContextCurrent(window);
     
     glewExperimental = GL_TRUE;
@@ -102,7 +102,7 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    
+    */
     SwsContext* sws_ctx = sws_getContext(
         video_codec_ctx->width, video_codec_ctx->height, video_codec_ctx->pix_fmt,
         video_codec_ctx->width, video_codec_ctx->height, AV_PIX_FMT_RGB24,
@@ -245,21 +245,23 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
 
                 GLobal::frameDisplayer->DisplayFrame(rgb_frame->data[0]);
 
-                
+                /*
                 glBindTexture(GL_TEXTURE_2D, texture);
                 glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, video_codec_ctx->width,
                     video_codec_ctx->height, 0, GL_RGB, GL_UNSIGNED_BYTE,
                     rgb_frame->data[0]);
-                    
+                    */
+                /*
                 glClear(GL_COLOR_BUFFER_BIT);
                 glUseProgram(shader_program);
                 glBindVertexArray(VAO);
                 glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-                
+                */
+                /*
                 glfwSwapBuffers(window);
                 glfwPollEvents();
                 
-                
+                */
                 frames_displayed++;
                 last_video_time = video_time;
                 
@@ -295,7 +297,7 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
     
     av_frame_free(&frame);
     sws_freeContext(sws_ctx);
-    
+    /*
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
     glDeleteBuffers(1, &EBO);
@@ -303,11 +305,13 @@ void decode_video(AVCodecContext* video_codec_ctx, AVRational video_time_base,
     glDeleteProgram(shader_program);
     
     glfwDestroyWindow(window);
-    glfwTerminate();
+    glfwTerminate();*/
 }
 
 GLuint create_shader_program()
 {
+    return 0;
+    /*
     GLuint vertex_shader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertex_shader, 1, &vertex_shader_src, nullptr);
     glCompileShader(vertex_shader);
@@ -350,5 +354,5 @@ GLuint create_shader_program()
     glDeleteShader(vertex_shader);
     glDeleteShader(fragment_shader);
     
-    return shader_program;
+    return shader_program;*/
 }

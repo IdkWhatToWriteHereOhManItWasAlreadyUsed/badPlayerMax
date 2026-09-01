@@ -144,7 +144,7 @@ void MediaPlayer::run()
     GLobal::frameDisplayer->DisplayFrame((uint8_t**)&temp);
 
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(25555));
+    std::this_thread::sleep_for(std::chrono::milliseconds(255));
     
     impl_->demuxer_thread = std::thread(demuxer_thread_func, impl_->format_ctx,
         impl_->video_stream_index, impl_->audio_stream_index,
