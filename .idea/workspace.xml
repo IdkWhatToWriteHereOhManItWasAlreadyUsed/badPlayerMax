@@ -37,14 +37,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="отключено окно видео плеера на время починки запуска на nvidia">
+    <list default="true" id="3d37f8aa-c9e8-446a-9d60-6cafbf0b05db" name="Changes" comment="Удалил логгирование ошибок рендеринга">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.gs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/default.gs.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.gs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/gPass.gs.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.gs.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/res/shaders/zPrepass.gs.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/core/GameRendering.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/BlockGPUDataArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenGLSomethingFrameDisplayerEVO/src/renderer/BlockGPUDataArray.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,61 +88,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0529289775801807" />
-      <entry key="MS500" value="1.7045849358767913" />
-      <entry key="S2" value="3.1830022216481377" />
-      <entry key="S5" value="5.685243634679151" />
-      <entry key="S10" value="9.437328931286425" />
-      <entry key="S30" value="17.36368914256861" />
-      <entry key="S60" value="22.488687051620108" />
-      <entry key="M2" value="31.031122392739594" />
-      <entry key="M5" value="74.21777947534197" />
-      <entry key="M10" value="171.2710981755786" />
-      <entry key="M15" value="256.2805706220541" />
-      <entry key="M30" value="442.9322028996352" />
-      <entry key="H1" value="729.0894346903021" />
-      <entry key="H2" value="1116.9245371044105" />
-      <entry key="H4" value="1564.0859929342905" />
-      <entry key="D1" value="2467.057506809966" />
-      <entry key="W1" value="2740.837944019879" />
+      <entry key="MS100" value="1.0001587104645948" />
+      <entry key="MS500" value="1.3454420941979026" />
+      <entry key="S2" value="3.6817548676595595" />
+      <entry key="S5" value="5.871269455092622" />
+      <entry key="S10" value="7.168815915554004" />
+      <entry key="S30" value="9.356020221646192" />
+      <entry key="S60" value="14.156198890172954" />
+      <entry key="M2" value="24.18032006063473" />
+      <entry key="M5" value="64.94771143406753" />
+      <entry key="M10" value="157.7635044365598" />
+      <entry key="M15" value="242.31867374406352" />
+      <entry key="M30" value="431.6338438754086" />
+      <entry key="H1" value="721.191603064289" />
+      <entry key="H2" value="1112.9070608507552" />
+      <entry key="H4" value="1563.9453854609242" />
+      <entry key="D1" value="2473.648845437567" />
+      <entry key="W1" value="2749.4555078274325" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.459187907163552E-102" />
-      <entry key="S5" value="1.843505716897636E-41" />
-      <entry key="S10" value="4.2936065456648775E-21" />
-      <entry key="S30" value="1.6253269932146937E-7" />
-      <entry key="S60" value="4.0315344389137186E-4" />
-      <entry key="M2" value="0.020078684454696898" />
-      <entry key="M5" value="0.21005996460033682" />
-      <entry key="M10" value="0.49536932305076486" />
-      <entry key="M15" value="0.7554240530192223" />
-      <entry key="M30" value="1.663490839373635" />
-      <entry key="H1" value="4.836227440812842" />
-      <entry key="H2" value="15.082031386043402" />
-      <entry key="H4" value="34.202359258275386" />
-      <entry key="D1" value="78.34972810697353" />
-      <entry key="W1" value="91.55560252365495" />
+      <entry key="S2" value="6.91294037069888E-121" />
+      <entry key="S5" value="8.62710580391776E-49" />
+      <entry key="S10" value="9.288221468030203E-25" />
+      <entry key="S30" value="9.756877538241107E-9" />
+      <entry key="S60" value="9.877690792002632E-5" />
+      <entry key="M2" value="0.009938658796771771" />
+      <entry key="M5" value="0.15855513018456396" />
+      <entry key="M10" value="0.430375572709672" />
+      <entry key="M15" value="0.6878121010985848" />
+      <entry key="M30" value="1.5873032861995666" />
+      <entry key="H1" value="4.7241803384718155" />
+      <entry key="H2" value="14.906295133005079" />
+      <entry key="H4" value="34.002511970905324" />
+      <entry key="D1" value="78.2732409928816" />
+      <entry key="W1" value="91.54282874343482" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0177753834633658" />
-      <entry key="MS500" value="1.692854156176901" />
-      <entry key="S2" value="3.1754633437497954" />
-      <entry key="S5" value="5.677563924441054" />
-      <entry key="S10" value="9.4278329587138" />
-      <entry key="S30" value="17.35578921772694" />
-      <entry key="S60" value="22.48381348204402" />
-      <entry key="M2" value="31.04670971061455" />
-      <entry key="M5" value="74.42031121613182" />
-      <entry key="M10" value="171.75807573514066" />
-      <entry key="M15" value="257.02789279284684" />
-      <entry key="M30" value="444.5882514674617" />
-      <entry key="H1" value="733.9179767777038" />
-      <entry key="H2" value="1131.9974304680425" />
-      <entry key="H4" value="1598.2789987872995" />
-      <entry key="D1" value="2545.4038224361316" />
-      <entry key="W1" value="2832.392979139859" />
+      <entry key="MS100" value="0.9795736442948534" />
+      <entry key="MS500" value="1.3391364028396349" />
+      <entry key="S2" value="3.6766566033036443" />
+      <entry key="S5" value="5.867904944622452" />
+      <entry key="S10" value="7.166738001316022" />
+      <entry key="S30" value="9.354737687256927" />
+      <entry key="S60" value="14.15458378284956" />
+      <entry key="M2" value="24.18782062207266" />
+      <entry key="M5" value="65.100497131906" />
+      <entry key="M10" value="158.18654555250006" />
+      <entry key="M15" value="242.99907991344764" />
+      <entry key="M30" value="433.2140311320954" />
+      <entry key="H1" value="725.9082687944097" />
+      <entry key="H2" value="1127.8043207808514" />
+      <entry key="H4" value="1597.9385968504873" />
+      <entry key="D1" value="2551.918676976149" />
+      <entry key="W1" value="2840.9977692028065" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -199,6 +195,11 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.badPlayer">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="BeforeTestRunTask" enabled="true" />
@@ -305,7 +306,7 @@
       <workItem from="1788269067819" duration="516000" />
       <workItem from="1788270863212" duration="22000" />
       <workItem from="1788274809604" duration="1007000" />
-      <workItem from="1788294332841" duration="661000" />
+      <workItem from="1788294332841" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="Начало оптимизации от OpenCode">
       <option name="closed" value="true" />
@@ -363,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788294493338</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Удалил логгирование ошибок рендеринга">
+      <option name="closed" value="true" />
+      <created>1788295071798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788295071798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +403,8 @@
     <MESSAGE value="исправил конфликт слияния" />
     <MESSAGE value="какието изменения под wayland... я сдаюсь" />
     <MESSAGE value="отключено окно видео плеера на время починки запуска на nvidia" />
-    <option name="LAST_COMMIT_MESSAGE" value="отключено окно видео плеера на время починки запуска на nvidia" />
+    <MESSAGE value="Удалил логгирование ошибок рендеринга" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил логгирование ошибок рендеринга" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
